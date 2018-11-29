@@ -1,4 +1,4 @@
-### Technician terms and conditions
+### Custom terms and conditions
 This is a keycloak plugin which implements the keycloak required action SPI. This plugin enables you to have a second terms and conditions (ToS) required action. 
 Sometimes, one has different kind of users in the same realm and need to provide different ToS.
 
