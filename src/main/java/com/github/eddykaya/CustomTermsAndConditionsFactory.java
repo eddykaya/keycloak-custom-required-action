@@ -12,7 +12,7 @@ public class CustomTermsAndConditionsFactory implements RequiredActionFactory {
 
     @Override
     public String getDisplayText() {
-        return "Self Installation Terms and Conditions";
+        return "Custom Terms and Conditions";
     }
 
     @Override
