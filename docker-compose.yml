@@ -1,12 +1,12 @@
 version: '3.3'
 services:
-        keycloak:
-                image: jboss/keycloak
-                ports:
-                        - 9090:8080
-                environment:
-                        - KEYCLOAK_USER=admin
-                        - KEYCLOAK_PASSWORD=admin
-                volumes:
-                        - ./deployments:/opt/jboss/keycloak/standalone/deployments
-                        - ./keycloak:/opt/jboss/keycloak/themes/keycloak
+  keycloak:
+    image: jboss/keycloak
+    ports:
+      - 9090:8080
+    environment:
+      - KEYCLOAK_USER=admin
+      - KEYCLOAK_PASSWORD=admin
+    volumes:
+      - ./deployments:/opt/jboss/keycloak/standalone/deployments
+      - ./keycloak:/opt/jboss/keycloak/themes/keycloak
